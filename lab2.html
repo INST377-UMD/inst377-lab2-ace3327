@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2</title>
+    <style>
+        body {
+            background-color: lightcyan
+        }
+        input[type="submit"] {
+            background-color:aqua;
+            margin:10px;
+        }
+        input[type="submit"]:hover {
+            background-color:lightblue;
+        }
+        .preferences {
+            font-size: 25px;
+            margin:30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>INST 377 Lab 2 - Aidan Shields</h1>
+    <form name="Preference Questions" method="get" action="lab2-success.html">
+        <div class="preferences">
+            <!--preferences-->
+            <label for="favoriteColor">Favorite Color</label>
+            <input type="text" id="favoriteColor" placeholder="Red" required> </br>
+
+            <label for="favoriteFood">Favorite Food</label>
+            <input type="text" id="favoriteFood" placeholder="Pizza" required> </br>
+            <input type="submit" value="Submit">
+        </div>    
+    </form>
+</body>
+</html>
